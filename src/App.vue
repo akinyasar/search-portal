@@ -19,6 +19,14 @@ import { RouterLink, RouterView } from 'vue-router'
 <style>
 #root-container {
   width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  flex-grow: 1;
+  /*araştır*/
 }
 
 #main-footer {

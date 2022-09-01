@@ -30,9 +30,6 @@
 <style lang="scss">
 .main-footer-container {
   background-color: var(--color-blue);
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
 
   .contact-container {

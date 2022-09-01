@@ -13,6 +13,9 @@ $xxxxl: 3840px;
 html {
   scroll-behavior: smooth;
 }
+*{
+ box-sizing:border-box;
+}
 body {
   // @media only screen and (max-width: 576px) {
   //   overflow-y: auto;

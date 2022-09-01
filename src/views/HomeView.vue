@@ -8,12 +8,15 @@
       <div class="search-title mb-2">Find in records</div>
       <search-bar></search-bar>
     </div>
+    <div class="top-news-container">
+      <news></news>
+    </div>
   </main>
-
 </template>
 
 <script setup>
 import SearchBar from "@/components/search/SearchBar.vue"
+import News from "@/components/main/News.vue"
 </script>
 <style scoped lang="scss">
 .main-container {
@@ -31,6 +34,17 @@ import SearchBar from "@/components/search/SearchBar.vue"
   .search-title {
     font-size: 2rem;
     font-weight: bold;
+  }
+
+  .top-news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    padding: 0rem 10rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
   }
 }
 </style>
