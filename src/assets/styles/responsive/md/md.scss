@@ -103,4 +103,19 @@
   .md-pr-5 {
     padding-right: 5rem !important;
   }
+  .md-12{
+    grid-column: span 12 / span 12;
+  }
+  .md-width-100{
+    width: 100% !important;
+  }
+  .md-width-75{
+    width: 75% !important;
+  }
+  .md-width-50{
+    width: 50% !important;
+  }
+  .md-width-25{
+    width: 25% !important;
+  }
 }

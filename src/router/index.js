@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import MainView from '../views/MainView.vue'
 import MainHeader from "@/layout/MainHeader.vue";
 import MainFooter from "@/layout/MainFooter.vue";
 
@@ -8,9 +8,9 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "home",
+      name: "main",
       components: {
-        default: HomeView,
+        default: MainView,
         header: MainHeader,
         footer: MainFooter,
       },

@@ -147,4 +147,19 @@
     padding-left: 3rem !important;
     padding-right: 3rem !important;
   }
+  .xs-12{
+    grid-column: span 12 / span 12;
+  }
+  .xs-width-100{
+    width: 100% !important;
+  }
+  .xs-width-75{
+    width: 75% !important;
+  }
+  .xs-width-50{
+    width: 50% !important;
+  }
+  .xs-width-25{
+    width: 25% !important;
+  }
 }

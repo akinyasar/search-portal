@@ -118,4 +118,19 @@
     padding-left: 3rem !important;
     padding-right: 3rem !important;
   }
+  .sm-12{
+    grid-column: span 12 / span 12;
+  }
+  .sm-width-100{
+    width: 100% !important;
+  }
+  .sm-width-75{
+    width: 75% !important;
+  }
+  .sm-width-50{
+    width: 50% !important;
+  }
+  .sm-width-25{
+    width: 25% !important;
+  }
 }
